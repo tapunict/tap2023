@@ -5,7 +5,7 @@ ENV PATH /opt/flume/bin:$PATH
 ENV HADOOP_VERSION=2.10.1
 ENV HADOOP_HOME=/opt/flume/lib/hadoop-$HADOOP_VERSION
 
-RUN apk update && apk add bash 
+RUN apk update && apk add bash
 
 ADD pkg/apache-flume-${FLUME_VERSION}-bin.tar.gz /opt/
 
