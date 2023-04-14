@@ -13,5 +13,13 @@ flume-ng agent \
   -c ${FLUME_CONF_DIR} \
   -f ${FLUME_CONF_DIR}/${FLUME_CONF_FILE}\
   -n ${FLUME_AGENT_NAME} \
-  -Dorg.apache.flume.log.printconfig=true 
+  -Dorg.apache.flume.log.printconfig=true \
   -Dorg.apache.flume.log.rawdata=true 2>&1
+
+while :
+do
+	echo "Press [CTRL+C] to stop.."
+	sleep 1
+done
+
+echo $?

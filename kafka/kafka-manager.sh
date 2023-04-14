@@ -1,8 +1,10 @@
 #!/bin/bash
 ZK_DATA_DIR=/tmp/zookeeper
 ZK_SERVER="localhost"
+
 [[ -z "${KAFKA_ACTION}" ]] && { echo "KAFKA_ACTION required"; exit 1; }
 [[ -z "${KAFKA_DIR}" ]] && { echo "KAFKA_DIR missing"; exit 1; }
+[[ -z "${KAFKA_CONFIG}" ]] && { KAFKA_CONFIG="server.properties" }
 # ACTIONS start-zk, start-kafka, create-topic, 
 
 echo "Running action ${KAFKA_ACTION} (Kakfa Dir:${KAFKA_DIR}, ZK Server: ${ZK_SERVER})"
@@ -15,7 +17,7 @@ zookeeper-server-start.sh config/zookeeper.properties
 ;;
 "start-kafka")
 cd ${KAFKA_DIR}
-kafka-server-start.sh config/server.properties
+kafka-server-start.sh config/${KAFKA_CONFIG}
 ;;
 "create-topic")
 cd ${KAFKA_DIR}
