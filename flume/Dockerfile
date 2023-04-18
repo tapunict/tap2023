@@ -20,8 +20,7 @@ RUN mkdir /var/log/netcat
 ADD start-flume.sh /opt/flume/bin/start-flume
 # Copy All conf here
 ADD conf/* /opt/flume/conf/
-# Add compiled lib
-ADD lib/* /opt/flume/lib/
+
 EXPOSE 44444
 
 ENTRYPOINT [ "start-flume" ]
