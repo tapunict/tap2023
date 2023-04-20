@@ -2,10 +2,9 @@
 # $ bin/flume-ng agent --conf conf --conf-file example.conf --name a1
 
 FLUME_CONF_DIR=/opt/flume/conf
-FLUME_AGENT_NAME=a1 
 
 [[ -d "${FLUME_CONF_DIR}"  ]]  || { echo "Flume config dir not mounted in /opt/flume-config";  exit 1; }
-[[ -z "${FLUME_AGENT_NAME}" ]] && { echo "FLUME_AGENT_NAME required"; exit 1; }
+[[ -z "${FLUME_AGENT_NAME}" ]] && { echo "Setting FLUME_AGENT_NAME by default to a1"; FLUME_AGENT_NAME=a1; }
 
 echo "Starting flume agent : ${FLUME_AGENT_NAME}"
 
