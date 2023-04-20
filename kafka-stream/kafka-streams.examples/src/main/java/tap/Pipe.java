@@ -41,7 +41,7 @@ public class Pipe {
 
         final StreamsBuilder builder = new StreamsBuilder();
 
-        builder.stream("streams-plaintext-input").to("streams-pipe-output");
+        builder.<String, String>stream("streams-plaintext-input").mapValues(value -> value.toUpperCase()).to("streams-pipe-output");
 
         final Topology topology = builder.build();
         final KafkaStreams streams = new KafkaStreams(topology, props);
