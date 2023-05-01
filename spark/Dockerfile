@@ -7,7 +7,7 @@ ENV PATH $SPARK_DIR/bin:$PATH
 
 ADD setup/spark-${SPARK_VERSION}-bin-${HADOOP_VERSION}.tgz /opt
 
-RUN apt-get update && apt-get install -y procps && rm -rf /var/lib/apt/lists/*
+RUN yum -y update && yum install -y procps && rm -rf /var/lib/apt/lists/*
 
 # RUN apt-get update && apt-get -y install bash python3 python3-pip netcat
 
