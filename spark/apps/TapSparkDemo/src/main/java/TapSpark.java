@@ -14,13 +14,11 @@ import org.apache.kafka.common.TopicPartition;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import scala.Tuple2;
 
-
 public class TapSpark {
     private static final Pattern SPACE = Pattern.compile(" ");
     public static void main(String[] args) throws Exception {
         String brokers = "10.0.100.23:9092";
         String groupId = "consumer-group"; // Kafka Consumer Group
-
 
         Map<String, Object> kafkaParams = new HashMap<>();
         kafkaParams.put("bootstrap.servers", brokers);

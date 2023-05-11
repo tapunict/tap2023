@@ -12,6 +12,7 @@ RUN yum -y update && yum install -y procps gcc openssl-devel bzip2-devel libffi-
 #RUN wget https://www.python.org/ftp/python/3.11.1/Python-3.11.1.tgz && tar xzf Python-3.11.1.tgz && cd Python-3.11.1 && ./configure --enable-optimizations && make install   
 RUN yum -y install python3
 
+RUN yum -y install glibc
 # RUN apt-get update && apt-get -y install bash python3 python3-pip netcat
 
 RUN pip3 install pyspark numpy elasticsearch
@@ -22,7 +23,7 @@ ADD dataset /opt/tap/spark/dataset
 # Add Python Code
 ADD code/*  /opt/tap/
 # Add Java Code
-# ADD apps /opt/tap/apps
+ADD apps /opt/tap/apps
 # Add Spark Manager
 ADD spark-manager.sh $SPARK_DIR/bin/spark-manager
 
