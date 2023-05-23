@@ -5,7 +5,7 @@ ENV PATH $SPARK_DIR/bin:$SPARK_DIR/sbin:$PATH
 
 ADD setup/spark-${SPARK_VERSION}-bin-hadoop3.2.tgz /opt
 RUN apt-get update && apt-get -y install bash 
-RUN apt-get -y install python3=3.9
+RUN apt-get -y install python3.9
 
 RUN mv /opt/spark-${SPARK_VERSION}-bin-hadoop3.2 ${SPARK_DIR}
 
