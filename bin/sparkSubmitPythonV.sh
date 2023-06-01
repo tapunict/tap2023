@@ -7,4 +7,4 @@ docker container rm sparkSubmit
 
 docker build ../spark/ --tag tap:spark
 
-docker run -e SPARK_ACTION=spark-submit-python -p 4040:4040 --network tap --name sparkSubmit -it tap:spark $1 $2
+docker run -e SPARK_ACTION=spark-submit-python -v sparklibs:/root/.ivy2 -p 4040:4040 --network tap --name sparkSubmit -it tap:spark $1 $2
