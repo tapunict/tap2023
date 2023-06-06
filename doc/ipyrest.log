@@ -1,0 +1,810 @@
+2023-05-14 20:12:47,271 - ipyrest - INFO - Completed configuring logger!
+2023-05-14 20:12:47,304 - ipyrest - INFO - clicked
+2023-05-14 20:12:47,304 - ipyrest - INFO - vcr request ['http://localhost:9200/', 'GET'] {'headers': {}, 'cassette_path': '', 'logger': <ipyrest.ipyrest.MyLogger object at 0x1048618e0>}
+2023-05-14 20:12:47,304 - ipyrest - INFO - callign timeout_execute_request
+2023-05-14 20:12:47,304 - ipyrest - INFO - execute_request <vcr.config.VCR object at 0x104861970> 
+2023-05-14 20:12:47,317 - ipyrest - INFO - result request <Response [200]>
+2023-05-14 20:12:47,317 - ipyrest - INFO - b'{\n  "name" : "d4f2577f23e6",\n  "cluster_name" : "docker-cluster",\n  "cluster_uuid" : "ZuRZ2gerQuSxzBImOvUcCw",\n  "version" : {\n    "number" : "8.7.1",\n    "build_flavor" : "default",\n    "build_type" : "docker",\n    "build_hash" : "f229ed3f893a515d590d0f39b05f68913e2d9b53",\n    "build_date" : "2023-04-27T04:33:42.127815583Z",\n    "build_snapshot" : false,\n    "lucene_version" : "9.5.0",\n    "minimum_wire_compatibility_version" : "7.17.0",\n    "minimum_index_compatibility_version" : "7.0.0"\n  },\n  "tagline" : "You Know, for Search"\n}\n'
+2023-05-14 20:12:47,318 - ipyrest - INFO - response {'X-elastic-product': 'Elasticsearch', 'content-type': 'application/json', 'content-encoding': 'gzip', 'content-length': '328'}
+2023-05-14 20:12:47,318 - ipyrest - INFO - 0
+2023-05-14 20:12:47,320 - ipyrest - INFO - 0
+2023-05-14 20:12:47,321 - ipyrest - INFO - maintype: application, subtype: json, params: None
+2023-05-14 20:12:47,321 - ipyrest - INFO - essence: application/json
+2023-05-14 20:12:47,327 - ipyrest - INFO - HTML
+2023-05-14 20:12:47,327 - ipyrest - INFO - text/html.* application/json
+2023-05-14 20:12:47,327 - ipyrest - INFO - skipped
+2023-05-14 20:12:47,327 - ipyrest - INFO - SVG
+2023-05-14 20:12:47,327 - ipyrest - INFO - image/svg\+xml.* application/json
+2023-05-14 20:12:47,327 - ipyrest - INFO - skipped
+2023-05-14 20:12:47,327 - ipyrest - INFO - Image
+2023-05-14 20:12:47,327 - ipyrest - INFO - image/.* application/json
+2023-05-14 20:12:47,327 - ipyrest - INFO - skipped
+2023-05-14 20:12:47,327 - ipyrest - INFO - JSON
+2023-05-14 20:12:47,327 - ipyrest - INFO - application/json.* application/json
+2023-05-14 20:12:47,327 - ipyrest - INFO - application/json
+2023-05-14 20:12:47,330 - ipyrest - INFO - data {'name': 'd4f2577f23e6', 'cluster_name': 'docker-cluster', 'cluster_uuid': 'ZuRZ2gerQuSxzBImOvUcCw', 'version': {'number': '8.7.1', 'build_flavor': 'default', 'build_type': 'docker', 'build_hash': 'f229ed3f893a515d590d0f39b05f68913e2d9b53', 'build_date': '2023-04-27T04:33:42.127815583Z', 'build_snapshot': False, 'lucene_version': '9.5.0', 'minimum_wire_compatibility_version': '7.17.0', 'minimum_index_compatibility_version': '7.0.0'}, 'tagline': 'You Know, for Search'}
+2023-05-14 20:12:47,330 - ipyrest - INFO - rendered
+2023-05-14 20:12:47,330 - ipyrest - INFO - application/vnd\..*\+json.* application/json
+2023-05-14 20:12:47,330 - ipyrest - INFO - skipped
+2023-05-14 20:12:47,330 - ipyrest - INFO - CSV
+2023-05-14 20:12:47,331 - ipyrest - INFO - text/csv.* application/json
+2023-05-14 20:12:47,331 - ipyrest - INFO - skipped
+2023-05-14 20:12:47,331 - ipyrest - INFO - GeoJSON
+2023-05-14 20:12:47,331 - ipyrest - INFO - application/vnd\.geo\+json.* application/json
+2023-05-14 20:12:47,331 - ipyrest - INFO - skipped
+2023-05-14 20:12:47,331 - ipyrest - INFO - GPX
+2023-05-14 20:12:47,331 - ipyrest - INFO - application/gpx\+xml.* application/json
+2023-05-14 20:12:47,331 - ipyrest - INFO - skipped
+2023-05-14 20:12:47,331 - ipyrest - INFO - Scatter-3D
+2023-05-14 20:12:47,331 - ipyrest - INFO - application/vnd\.3d\+txt.* application/json
+2023-05-14 20:12:47,331 - ipyrest - INFO - skipped
+2023-05-14 20:12:47,331 - ipyrest - INFO - Protobuf
+2023-05-14 20:12:47,331 - ipyrest - INFO - application/x\-protobuf.* application/json
+2023-05-14 20:12:47,331 - ipyrest - INFO - skipped
+2023-05-14 20:13:13,586 - ipyrest - INFO - Completed configuring logger!
+2023-05-14 20:13:13,586 - ipyrest - INFO - Completed configuring logger!
+2023-05-14 20:13:16,094 - ipyrest - INFO - Completed configuring logger!
+2023-05-14 20:13:16,094 - ipyrest - INFO - Completed configuring logger!
+2023-05-14 20:13:16,094 - ipyrest - INFO - Completed configuring logger!
+2023-05-14 20:13:16,137 - ipyrest - INFO - clicked
+2023-05-14 20:13:16,137 - ipyrest - INFO - clicked
+2023-05-14 20:13:16,137 - ipyrest - INFO - clicked
+2023-05-14 20:13:16,137 - ipyrest - INFO - vcr request ['http://localhost:9200/customers/_doc/1', 'GET'] {'headers': {}, 'cassette_path': '', 'logger': <ipyrest.ipyrest.MyLogger object at 0x1642ea880>}
+2023-05-14 20:13:16,137 - ipyrest - INFO - vcr request ['http://localhost:9200/customers/_doc/1', 'GET'] {'headers': {}, 'cassette_path': '', 'logger': <ipyrest.ipyrest.MyLogger object at 0x1642ea880>}
+2023-05-14 20:13:16,137 - ipyrest - INFO - vcr request ['http://localhost:9200/customers/_doc/1', 'GET'] {'headers': {}, 'cassette_path': '', 'logger': <ipyrest.ipyrest.MyLogger object at 0x1642ea880>}
+2023-05-14 20:13:16,137 - ipyrest - INFO - callign timeout_execute_request
+2023-05-14 20:13:16,137 - ipyrest - INFO - callign timeout_execute_request
+2023-05-14 20:13:16,137 - ipyrest - INFO - callign timeout_execute_request
+2023-05-14 20:13:16,137 - ipyrest - INFO - execute_request <vcr.config.VCR object at 0x104861970> 
+2023-05-14 20:13:16,137 - ipyrest - INFO - execute_request <vcr.config.VCR object at 0x104861970> 
+2023-05-14 20:13:16,137 - ipyrest - INFO - execute_request <vcr.config.VCR object at 0x104861970> 
+2023-05-14 20:13:16,151 - ipyrest - INFO - result request <Response [404]>
+2023-05-14 20:13:16,151 - ipyrest - INFO - result request <Response [404]>
+2023-05-14 20:13:16,151 - ipyrest - INFO - result request <Response [404]>
+2023-05-14 20:13:16,151 - ipyrest - INFO - b'{"error":{"root_cause":[{"type":"index_not_found_exception","reason":"no such index [customers]","resource.type":"index_or_alias","resource.id":"customers","index_uuid":"_na_","index":"customers"}],"type":"index_not_found_exception","reason":"no such index [customers]","resource.type":"index_or_alias","resource.id":"customers","index_uuid":"_na_","index":"customers"},"status":404}'
+2023-05-14 20:13:16,151 - ipyrest - INFO - b'{"error":{"root_cause":[{"type":"index_not_found_exception","reason":"no such index [customers]","resource.type":"index_or_alias","resource.id":"customers","index_uuid":"_na_","index":"customers"}],"type":"index_not_found_exception","reason":"no such index [customers]","resource.type":"index_or_alias","resource.id":"customers","index_uuid":"_na_","index":"customers"},"status":404}'
+2023-05-14 20:13:16,151 - ipyrest - INFO - b'{"error":{"root_cause":[{"type":"index_not_found_exception","reason":"no such index [customers]","resource.type":"index_or_alias","resource.id":"customers","index_uuid":"_na_","index":"customers"}],"type":"index_not_found_exception","reason":"no such index [customers]","resource.type":"index_or_alias","resource.id":"customers","index_uuid":"_na_","index":"customers"},"status":404}'
+2023-05-14 20:13:16,151 - ipyrest - INFO - response {'X-elastic-product': 'Elasticsearch', 'content-type': 'application/json', 'content-encoding': 'gzip', 'content-length': '162'}
+2023-05-14 20:13:16,151 - ipyrest - INFO - response {'X-elastic-product': 'Elasticsearch', 'content-type': 'application/json', 'content-encoding': 'gzip', 'content-length': '162'}
+2023-05-14 20:13:16,151 - ipyrest - INFO - response {'X-elastic-product': 'Elasticsearch', 'content-type': 'application/json', 'content-encoding': 'gzip', 'content-length': '162'}
+2023-05-14 20:13:16,151 - ipyrest - INFO - 0
+2023-05-14 20:13:16,151 - ipyrest - INFO - 0
+2023-05-14 20:13:16,151 - ipyrest - INFO - 0
+2023-05-14 20:13:16,154 - ipyrest - INFO - 0
+2023-05-14 20:13:16,154 - ipyrest - INFO - 0
+2023-05-14 20:13:16,154 - ipyrest - INFO - 0
+2023-05-14 20:13:16,155 - ipyrest - INFO - maintype: application, subtype: json, params: None
+2023-05-14 20:13:16,155 - ipyrest - INFO - maintype: application, subtype: json, params: None
+2023-05-14 20:13:16,155 - ipyrest - INFO - maintype: application, subtype: json, params: None
+2023-05-14 20:13:16,155 - ipyrest - INFO - essence: application/json
+2023-05-14 20:13:16,155 - ipyrest - INFO - essence: application/json
+2023-05-14 20:13:16,155 - ipyrest - INFO - essence: application/json
+2023-05-14 20:13:16,160 - ipyrest - INFO - HTML
+2023-05-14 20:13:16,160 - ipyrest - INFO - HTML
+2023-05-14 20:13:16,160 - ipyrest - INFO - HTML
+2023-05-14 20:13:16,160 - ipyrest - INFO - text/html.* application/json
+2023-05-14 20:13:16,160 - ipyrest - INFO - text/html.* application/json
+2023-05-14 20:13:16,160 - ipyrest - INFO - text/html.* application/json
+2023-05-14 20:13:16,160 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,160 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,160 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,160 - ipyrest - INFO - SVG
+2023-05-14 20:13:16,160 - ipyrest - INFO - SVG
+2023-05-14 20:13:16,160 - ipyrest - INFO - SVG
+2023-05-14 20:13:16,160 - ipyrest - INFO - image/svg\+xml.* application/json
+2023-05-14 20:13:16,160 - ipyrest - INFO - image/svg\+xml.* application/json
+2023-05-14 20:13:16,160 - ipyrest - INFO - image/svg\+xml.* application/json
+2023-05-14 20:13:16,161 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,161 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,161 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,161 - ipyrest - INFO - Image
+2023-05-14 20:13:16,161 - ipyrest - INFO - Image
+2023-05-14 20:13:16,161 - ipyrest - INFO - Image
+2023-05-14 20:13:16,161 - ipyrest - INFO - image/.* application/json
+2023-05-14 20:13:16,161 - ipyrest - INFO - image/.* application/json
+2023-05-14 20:13:16,161 - ipyrest - INFO - image/.* application/json
+2023-05-14 20:13:16,161 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,161 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,161 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,161 - ipyrest - INFO - JSON
+2023-05-14 20:13:16,161 - ipyrest - INFO - JSON
+2023-05-14 20:13:16,161 - ipyrest - INFO - JSON
+2023-05-14 20:13:16,161 - ipyrest - INFO - application/json.* application/json
+2023-05-14 20:13:16,161 - ipyrest - INFO - application/json.* application/json
+2023-05-14 20:13:16,161 - ipyrest - INFO - application/json.* application/json
+2023-05-14 20:13:16,161 - ipyrest - INFO - application/json
+2023-05-14 20:13:16,161 - ipyrest - INFO - application/json
+2023-05-14 20:13:16,161 - ipyrest - INFO - application/json
+2023-05-14 20:13:16,163 - ipyrest - INFO - data {'error': {'root_cause': [{'type': 'index_not_found_exception', 'reason': 'no such index [customers]', 'resource.type': 'index_or_alias', 'resource.id': 'customers', 'index_uuid': '_na_', 'index': 'customers'}], 'type': 'index_not_found_exception', 'reason': 'no such index [customers]', 'resource.type': 'index_or_alias', 'resource.id': 'customers', 'index_uuid': '_na_', 'index': 'customers'}, 'status': 404}
+2023-05-14 20:13:16,163 - ipyrest - INFO - data {'error': {'root_cause': [{'type': 'index_not_found_exception', 'reason': 'no such index [customers]', 'resource.type': 'index_or_alias', 'resource.id': 'customers', 'index_uuid': '_na_', 'index': 'customers'}], 'type': 'index_not_found_exception', 'reason': 'no such index [customers]', 'resource.type': 'index_or_alias', 'resource.id': 'customers', 'index_uuid': '_na_', 'index': 'customers'}, 'status': 404}
+2023-05-14 20:13:16,163 - ipyrest - INFO - data {'error': {'root_cause': [{'type': 'index_not_found_exception', 'reason': 'no such index [customers]', 'resource.type': 'index_or_alias', 'resource.id': 'customers', 'index_uuid': '_na_', 'index': 'customers'}], 'type': 'index_not_found_exception', 'reason': 'no such index [customers]', 'resource.type': 'index_or_alias', 'resource.id': 'customers', 'index_uuid': '_na_', 'index': 'customers'}, 'status': 404}
+2023-05-14 20:13:16,163 - ipyrest - INFO - rendered
+2023-05-14 20:13:16,163 - ipyrest - INFO - rendered
+2023-05-14 20:13:16,163 - ipyrest - INFO - rendered
+2023-05-14 20:13:16,164 - ipyrest - INFO - application/vnd\..*\+json.* application/json
+2023-05-14 20:13:16,164 - ipyrest - INFO - application/vnd\..*\+json.* application/json
+2023-05-14 20:13:16,164 - ipyrest - INFO - application/vnd\..*\+json.* application/json
+2023-05-14 20:13:16,164 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,164 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,164 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,164 - ipyrest - INFO - CSV
+2023-05-14 20:13:16,164 - ipyrest - INFO - CSV
+2023-05-14 20:13:16,164 - ipyrest - INFO - CSV
+2023-05-14 20:13:16,164 - ipyrest - INFO - text/csv.* application/json
+2023-05-14 20:13:16,164 - ipyrest - INFO - text/csv.* application/json
+2023-05-14 20:13:16,164 - ipyrest - INFO - text/csv.* application/json
+2023-05-14 20:13:16,164 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,164 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,164 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,165 - ipyrest - INFO - GeoJSON
+2023-05-14 20:13:16,165 - ipyrest - INFO - GeoJSON
+2023-05-14 20:13:16,165 - ipyrest - INFO - GeoJSON
+2023-05-14 20:13:16,165 - ipyrest - INFO - application/vnd\.geo\+json.* application/json
+2023-05-14 20:13:16,165 - ipyrest - INFO - application/vnd\.geo\+json.* application/json
+2023-05-14 20:13:16,165 - ipyrest - INFO - application/vnd\.geo\+json.* application/json
+2023-05-14 20:13:16,165 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,165 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,165 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,165 - ipyrest - INFO - GPX
+2023-05-14 20:13:16,165 - ipyrest - INFO - GPX
+2023-05-14 20:13:16,165 - ipyrest - INFO - GPX
+2023-05-14 20:13:16,165 - ipyrest - INFO - application/gpx\+xml.* application/json
+2023-05-14 20:13:16,165 - ipyrest - INFO - application/gpx\+xml.* application/json
+2023-05-14 20:13:16,165 - ipyrest - INFO - application/gpx\+xml.* application/json
+2023-05-14 20:13:16,165 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,165 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,165 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,165 - ipyrest - INFO - Scatter-3D
+2023-05-14 20:13:16,165 - ipyrest - INFO - Scatter-3D
+2023-05-14 20:13:16,165 - ipyrest - INFO - Scatter-3D
+2023-05-14 20:13:16,165 - ipyrest - INFO - application/vnd\.3d\+txt.* application/json
+2023-05-14 20:13:16,165 - ipyrest - INFO - application/vnd\.3d\+txt.* application/json
+2023-05-14 20:13:16,165 - ipyrest - INFO - application/vnd\.3d\+txt.* application/json
+2023-05-14 20:13:16,165 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,165 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,165 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,165 - ipyrest - INFO - Protobuf
+2023-05-14 20:13:16,165 - ipyrest - INFO - Protobuf
+2023-05-14 20:13:16,165 - ipyrest - INFO - Protobuf
+2023-05-14 20:13:16,165 - ipyrest - INFO - application/x\-protobuf.* application/json
+2023-05-14 20:13:16,165 - ipyrest - INFO - application/x\-protobuf.* application/json
+2023-05-14 20:13:16,165 - ipyrest - INFO - application/x\-protobuf.* application/json
+2023-05-14 20:13:16,165 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,165 - ipyrest - INFO - skipped
+2023-05-14 20:13:16,165 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,098 - ipyrest - INFO - clicked
+2023-05-14 20:13:25,098 - ipyrest - INFO - clicked
+2023-05-14 20:13:25,098 - ipyrest - INFO - clicked
+2023-05-14 20:13:25,100 - ipyrest - INFO - vcr request ['http://localhost:9200/customers/_doc/1', 'PUT'] {'headers': {}, 'cassette_path': '', 'logger': <ipyrest.ipyrest.MyLogger object at 0x10483a7c0>, 'json': {'name': 'Stefano Pioli'}}
+2023-05-14 20:13:25,100 - ipyrest - INFO - vcr request ['http://localhost:9200/customers/_doc/1', 'PUT'] {'headers': {}, 'cassette_path': '', 'logger': <ipyrest.ipyrest.MyLogger object at 0x10483a7c0>, 'json': {'name': 'Stefano Pioli'}}
+2023-05-14 20:13:25,100 - ipyrest - INFO - vcr request ['http://localhost:9200/customers/_doc/1', 'PUT'] {'headers': {}, 'cassette_path': '', 'logger': <ipyrest.ipyrest.MyLogger object at 0x10483a7c0>, 'json': {'name': 'Stefano Pioli'}}
+2023-05-14 20:13:25,100 - ipyrest - INFO - callign timeout_execute_request
+2023-05-14 20:13:25,100 - ipyrest - INFO - callign timeout_execute_request
+2023-05-14 20:13:25,100 - ipyrest - INFO - callign timeout_execute_request
+2023-05-14 20:13:25,101 - ipyrest - INFO - execute_request <vcr.config.VCR object at 0x104861970> 
+2023-05-14 20:13:25,101 - ipyrest - INFO - execute_request <vcr.config.VCR object at 0x104861970> 
+2023-05-14 20:13:25,101 - ipyrest - INFO - execute_request <vcr.config.VCR object at 0x104861970> 
+2023-05-14 20:13:25,376 - ipyrest - INFO - result request <Response [201]>
+2023-05-14 20:13:25,376 - ipyrest - INFO - result request <Response [201]>
+2023-05-14 20:13:25,376 - ipyrest - INFO - result request <Response [201]>
+2023-05-14 20:13:25,377 - ipyrest - INFO - b'{"_index":"customers","_id":"1","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":0,"_primary_term":1}'
+2023-05-14 20:13:25,377 - ipyrest - INFO - b'{"_index":"customers","_id":"1","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":0,"_primary_term":1}'
+2023-05-14 20:13:25,377 - ipyrest - INFO - b'{"_index":"customers","_id":"1","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":0,"_primary_term":1}'
+2023-05-14 20:13:25,378 - ipyrest - INFO - response {'Location': '/customers/_doc/1', 'X-elastic-product': 'Elasticsearch', 'content-type': 'application/json', 'content-encoding': 'gzip', 'content-length': '133'}
+2023-05-14 20:13:25,378 - ipyrest - INFO - response {'Location': '/customers/_doc/1', 'X-elastic-product': 'Elasticsearch', 'content-type': 'application/json', 'content-encoding': 'gzip', 'content-length': '133'}
+2023-05-14 20:13:25,378 - ipyrest - INFO - response {'Location': '/customers/_doc/1', 'X-elastic-product': 'Elasticsearch', 'content-type': 'application/json', 'content-encoding': 'gzip', 'content-length': '133'}
+2023-05-14 20:13:25,378 - ipyrest - INFO - 0
+2023-05-14 20:13:25,378 - ipyrest - INFO - 0
+2023-05-14 20:13:25,378 - ipyrest - INFO - 0
+2023-05-14 20:13:25,390 - ipyrest - INFO - 0
+2023-05-14 20:13:25,390 - ipyrest - INFO - 0
+2023-05-14 20:13:25,390 - ipyrest - INFO - 0
+2023-05-14 20:13:25,393 - ipyrest - INFO - maintype: application, subtype: json, params: None
+2023-05-14 20:13:25,393 - ipyrest - INFO - maintype: application, subtype: json, params: None
+2023-05-14 20:13:25,393 - ipyrest - INFO - maintype: application, subtype: json, params: None
+2023-05-14 20:13:25,393 - ipyrest - INFO - essence: application/json
+2023-05-14 20:13:25,393 - ipyrest - INFO - essence: application/json
+2023-05-14 20:13:25,393 - ipyrest - INFO - essence: application/json
+2023-05-14 20:13:25,402 - ipyrest - INFO - HTML
+2023-05-14 20:13:25,402 - ipyrest - INFO - HTML
+2023-05-14 20:13:25,402 - ipyrest - INFO - HTML
+2023-05-14 20:13:25,402 - ipyrest - INFO - text/html.* application/json
+2023-05-14 20:13:25,402 - ipyrest - INFO - text/html.* application/json
+2023-05-14 20:13:25,402 - ipyrest - INFO - text/html.* application/json
+2023-05-14 20:13:25,402 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,402 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,402 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,403 - ipyrest - INFO - SVG
+2023-05-14 20:13:25,403 - ipyrest - INFO - SVG
+2023-05-14 20:13:25,403 - ipyrest - INFO - SVG
+2023-05-14 20:13:25,403 - ipyrest - INFO - image/svg\+xml.* application/json
+2023-05-14 20:13:25,403 - ipyrest - INFO - image/svg\+xml.* application/json
+2023-05-14 20:13:25,403 - ipyrest - INFO - image/svg\+xml.* application/json
+2023-05-14 20:13:25,403 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,403 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,403 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,403 - ipyrest - INFO - Image
+2023-05-14 20:13:25,403 - ipyrest - INFO - Image
+2023-05-14 20:13:25,403 - ipyrest - INFO - Image
+2023-05-14 20:13:25,403 - ipyrest - INFO - image/.* application/json
+2023-05-14 20:13:25,403 - ipyrest - INFO - image/.* application/json
+2023-05-14 20:13:25,403 - ipyrest - INFO - image/.* application/json
+2023-05-14 20:13:25,403 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,403 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,403 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,403 - ipyrest - INFO - JSON
+2023-05-14 20:13:25,403 - ipyrest - INFO - JSON
+2023-05-14 20:13:25,403 - ipyrest - INFO - JSON
+2023-05-14 20:13:25,403 - ipyrest - INFO - application/json.* application/json
+2023-05-14 20:13:25,403 - ipyrest - INFO - application/json.* application/json
+2023-05-14 20:13:25,403 - ipyrest - INFO - application/json.* application/json
+2023-05-14 20:13:25,403 - ipyrest - INFO - application/json
+2023-05-14 20:13:25,403 - ipyrest - INFO - application/json
+2023-05-14 20:13:25,403 - ipyrest - INFO - application/json
+2023-05-14 20:13:25,406 - ipyrest - INFO - data {'_index': 'customers', '_id': '1', '_version': 1, 'result': 'created', '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 0, '_primary_term': 1}
+2023-05-14 20:13:25,406 - ipyrest - INFO - data {'_index': 'customers', '_id': '1', '_version': 1, 'result': 'created', '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 0, '_primary_term': 1}
+2023-05-14 20:13:25,406 - ipyrest - INFO - data {'_index': 'customers', '_id': '1', '_version': 1, 'result': 'created', '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 0, '_primary_term': 1}
+2023-05-14 20:13:25,406 - ipyrest - INFO - rendered
+2023-05-14 20:13:25,406 - ipyrest - INFO - rendered
+2023-05-14 20:13:25,406 - ipyrest - INFO - rendered
+2023-05-14 20:13:25,406 - ipyrest - INFO - application/vnd\..*\+json.* application/json
+2023-05-14 20:13:25,406 - ipyrest - INFO - application/vnd\..*\+json.* application/json
+2023-05-14 20:13:25,406 - ipyrest - INFO - application/vnd\..*\+json.* application/json
+2023-05-14 20:13:25,407 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,407 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,407 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,407 - ipyrest - INFO - CSV
+2023-05-14 20:13:25,407 - ipyrest - INFO - CSV
+2023-05-14 20:13:25,407 - ipyrest - INFO - CSV
+2023-05-14 20:13:25,407 - ipyrest - INFO - text/csv.* application/json
+2023-05-14 20:13:25,407 - ipyrest - INFO - text/csv.* application/json
+2023-05-14 20:13:25,407 - ipyrest - INFO - text/csv.* application/json
+2023-05-14 20:13:25,407 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,407 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,407 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,407 - ipyrest - INFO - GeoJSON
+2023-05-14 20:13:25,407 - ipyrest - INFO - GeoJSON
+2023-05-14 20:13:25,407 - ipyrest - INFO - GeoJSON
+2023-05-14 20:13:25,407 - ipyrest - INFO - application/vnd\.geo\+json.* application/json
+2023-05-14 20:13:25,407 - ipyrest - INFO - application/vnd\.geo\+json.* application/json
+2023-05-14 20:13:25,407 - ipyrest - INFO - application/vnd\.geo\+json.* application/json
+2023-05-14 20:13:25,407 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,407 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,407 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,407 - ipyrest - INFO - GPX
+2023-05-14 20:13:25,407 - ipyrest - INFO - GPX
+2023-05-14 20:13:25,407 - ipyrest - INFO - GPX
+2023-05-14 20:13:25,407 - ipyrest - INFO - application/gpx\+xml.* application/json
+2023-05-14 20:13:25,407 - ipyrest - INFO - application/gpx\+xml.* application/json
+2023-05-14 20:13:25,407 - ipyrest - INFO - application/gpx\+xml.* application/json
+2023-05-14 20:13:25,407 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,407 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,407 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,407 - ipyrest - INFO - Scatter-3D
+2023-05-14 20:13:25,407 - ipyrest - INFO - Scatter-3D
+2023-05-14 20:13:25,407 - ipyrest - INFO - Scatter-3D
+2023-05-14 20:13:25,407 - ipyrest - INFO - application/vnd\.3d\+txt.* application/json
+2023-05-14 20:13:25,407 - ipyrest - INFO - application/vnd\.3d\+txt.* application/json
+2023-05-14 20:13:25,407 - ipyrest - INFO - application/vnd\.3d\+txt.* application/json
+2023-05-14 20:13:25,407 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,407 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,407 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,407 - ipyrest - INFO - Protobuf
+2023-05-14 20:13:25,407 - ipyrest - INFO - Protobuf
+2023-05-14 20:13:25,407 - ipyrest - INFO - Protobuf
+2023-05-14 20:13:25,407 - ipyrest - INFO - application/x\-protobuf.* application/json
+2023-05-14 20:13:25,407 - ipyrest - INFO - application/x\-protobuf.* application/json
+2023-05-14 20:13:25,407 - ipyrest - INFO - application/x\-protobuf.* application/json
+2023-05-14 20:13:25,407 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,407 - ipyrest - INFO - skipped
+2023-05-14 20:13:25,407 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,818 - ipyrest - INFO - clicked
+2023-05-14 20:13:28,818 - ipyrest - INFO - clicked
+2023-05-14 20:13:28,818 - ipyrest - INFO - clicked
+2023-05-14 20:13:28,819 - ipyrest - INFO - vcr request ['http://localhost:9200/customers/_doc/1', 'GET'] {'headers': {}, 'cassette_path': '', 'logger': <ipyrest.ipyrest.MyLogger object at 0x1642ea880>}
+2023-05-14 20:13:28,819 - ipyrest - INFO - vcr request ['http://localhost:9200/customers/_doc/1', 'GET'] {'headers': {}, 'cassette_path': '', 'logger': <ipyrest.ipyrest.MyLogger object at 0x1642ea880>}
+2023-05-14 20:13:28,819 - ipyrest - INFO - vcr request ['http://localhost:9200/customers/_doc/1', 'GET'] {'headers': {}, 'cassette_path': '', 'logger': <ipyrest.ipyrest.MyLogger object at 0x1642ea880>}
+2023-05-14 20:13:28,819 - ipyrest - INFO - callign timeout_execute_request
+2023-05-14 20:13:28,819 - ipyrest - INFO - callign timeout_execute_request
+2023-05-14 20:13:28,819 - ipyrest - INFO - callign timeout_execute_request
+2023-05-14 20:13:28,819 - ipyrest - INFO - execute_request <vcr.config.VCR object at 0x104861970> 
+2023-05-14 20:13:28,819 - ipyrest - INFO - execute_request <vcr.config.VCR object at 0x104861970> 
+2023-05-14 20:13:28,819 - ipyrest - INFO - execute_request <vcr.config.VCR object at 0x104861970> 
+2023-05-14 20:13:28,848 - ipyrest - INFO - result request <Response [200]>
+2023-05-14 20:13:28,848 - ipyrest - INFO - result request <Response [200]>
+2023-05-14 20:13:28,848 - ipyrest - INFO - result request <Response [200]>
+2023-05-14 20:13:28,848 - ipyrest - INFO - b'{"_index":"customers","_id":"1","_version":1,"_seq_no":0,"_primary_term":1,"found":true,"_source":{"name": "Stefano Pioli"}}'
+2023-05-14 20:13:28,848 - ipyrest - INFO - b'{"_index":"customers","_id":"1","_version":1,"_seq_no":0,"_primary_term":1,"found":true,"_source":{"name": "Stefano Pioli"}}'
+2023-05-14 20:13:28,848 - ipyrest - INFO - b'{"_index":"customers","_id":"1","_version":1,"_seq_no":0,"_primary_term":1,"found":true,"_source":{"name": "Stefano Pioli"}}'
+2023-05-14 20:13:28,849 - ipyrest - INFO - response {'X-elastic-product': 'Elasticsearch', 'content-type': 'application/json', 'content-encoding': 'gzip', 'content-length': '128'}
+2023-05-14 20:13:28,849 - ipyrest - INFO - response {'X-elastic-product': 'Elasticsearch', 'content-type': 'application/json', 'content-encoding': 'gzip', 'content-length': '128'}
+2023-05-14 20:13:28,849 - ipyrest - INFO - response {'X-elastic-product': 'Elasticsearch', 'content-type': 'application/json', 'content-encoding': 'gzip', 'content-length': '128'}
+2023-05-14 20:13:28,849 - ipyrest - INFO - 0
+2023-05-14 20:13:28,849 - ipyrest - INFO - 0
+2023-05-14 20:13:28,849 - ipyrest - INFO - 0
+2023-05-14 20:13:28,856 - ipyrest - INFO - 0
+2023-05-14 20:13:28,856 - ipyrest - INFO - 0
+2023-05-14 20:13:28,856 - ipyrest - INFO - 0
+2023-05-14 20:13:28,859 - ipyrest - INFO - maintype: application, subtype: json, params: None
+2023-05-14 20:13:28,859 - ipyrest - INFO - maintype: application, subtype: json, params: None
+2023-05-14 20:13:28,859 - ipyrest - INFO - maintype: application, subtype: json, params: None
+2023-05-14 20:13:28,860 - ipyrest - INFO - essence: application/json
+2023-05-14 20:13:28,860 - ipyrest - INFO - essence: application/json
+2023-05-14 20:13:28,860 - ipyrest - INFO - essence: application/json
+2023-05-14 20:13:28,867 - ipyrest - INFO - HTML
+2023-05-14 20:13:28,867 - ipyrest - INFO - HTML
+2023-05-14 20:13:28,867 - ipyrest - INFO - HTML
+2023-05-14 20:13:28,868 - ipyrest - INFO - text/html.* application/json
+2023-05-14 20:13:28,868 - ipyrest - INFO - text/html.* application/json
+2023-05-14 20:13:28,868 - ipyrest - INFO - text/html.* application/json
+2023-05-14 20:13:28,868 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,868 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,868 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,868 - ipyrest - INFO - SVG
+2023-05-14 20:13:28,868 - ipyrest - INFO - SVG
+2023-05-14 20:13:28,868 - ipyrest - INFO - SVG
+2023-05-14 20:13:28,868 - ipyrest - INFO - image/svg\+xml.* application/json
+2023-05-14 20:13:28,868 - ipyrest - INFO - image/svg\+xml.* application/json
+2023-05-14 20:13:28,868 - ipyrest - INFO - image/svg\+xml.* application/json
+2023-05-14 20:13:28,869 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,869 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,869 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,869 - ipyrest - INFO - Image
+2023-05-14 20:13:28,869 - ipyrest - INFO - Image
+2023-05-14 20:13:28,869 - ipyrest - INFO - Image
+2023-05-14 20:13:28,869 - ipyrest - INFO - image/.* application/json
+2023-05-14 20:13:28,869 - ipyrest - INFO - image/.* application/json
+2023-05-14 20:13:28,869 - ipyrest - INFO - image/.* application/json
+2023-05-14 20:13:28,869 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,869 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,869 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,869 - ipyrest - INFO - JSON
+2023-05-14 20:13:28,869 - ipyrest - INFO - JSON
+2023-05-14 20:13:28,869 - ipyrest - INFO - JSON
+2023-05-14 20:13:28,869 - ipyrest - INFO - application/json.* application/json
+2023-05-14 20:13:28,869 - ipyrest - INFO - application/json.* application/json
+2023-05-14 20:13:28,869 - ipyrest - INFO - application/json.* application/json
+2023-05-14 20:13:28,869 - ipyrest - INFO - application/json
+2023-05-14 20:13:28,869 - ipyrest - INFO - application/json
+2023-05-14 20:13:28,869 - ipyrest - INFO - application/json
+2023-05-14 20:13:28,872 - ipyrest - INFO - data {'_index': 'customers', '_id': '1', '_version': 1, '_seq_no': 0, '_primary_term': 1, 'found': True, '_source': {'name': 'Stefano Pioli'}}
+2023-05-14 20:13:28,872 - ipyrest - INFO - data {'_index': 'customers', '_id': '1', '_version': 1, '_seq_no': 0, '_primary_term': 1, 'found': True, '_source': {'name': 'Stefano Pioli'}}
+2023-05-14 20:13:28,872 - ipyrest - INFO - data {'_index': 'customers', '_id': '1', '_version': 1, '_seq_no': 0, '_primary_term': 1, 'found': True, '_source': {'name': 'Stefano Pioli'}}
+2023-05-14 20:13:28,872 - ipyrest - INFO - rendered
+2023-05-14 20:13:28,872 - ipyrest - INFO - rendered
+2023-05-14 20:13:28,872 - ipyrest - INFO - rendered
+2023-05-14 20:13:28,872 - ipyrest - INFO - application/vnd\..*\+json.* application/json
+2023-05-14 20:13:28,872 - ipyrest - INFO - application/vnd\..*\+json.* application/json
+2023-05-14 20:13:28,872 - ipyrest - INFO - application/vnd\..*\+json.* application/json
+2023-05-14 20:13:28,872 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,872 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,872 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,873 - ipyrest - INFO - CSV
+2023-05-14 20:13:28,873 - ipyrest - INFO - CSV
+2023-05-14 20:13:28,873 - ipyrest - INFO - CSV
+2023-05-14 20:13:28,873 - ipyrest - INFO - text/csv.* application/json
+2023-05-14 20:13:28,873 - ipyrest - INFO - text/csv.* application/json
+2023-05-14 20:13:28,873 - ipyrest - INFO - text/csv.* application/json
+2023-05-14 20:13:28,873 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,873 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,873 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,873 - ipyrest - INFO - GeoJSON
+2023-05-14 20:13:28,873 - ipyrest - INFO - GeoJSON
+2023-05-14 20:13:28,873 - ipyrest - INFO - GeoJSON
+2023-05-14 20:13:28,873 - ipyrest - INFO - application/vnd\.geo\+json.* application/json
+2023-05-14 20:13:28,873 - ipyrest - INFO - application/vnd\.geo\+json.* application/json
+2023-05-14 20:13:28,873 - ipyrest - INFO - application/vnd\.geo\+json.* application/json
+2023-05-14 20:13:28,873 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,873 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,873 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,873 - ipyrest - INFO - GPX
+2023-05-14 20:13:28,873 - ipyrest - INFO - GPX
+2023-05-14 20:13:28,873 - ipyrest - INFO - GPX
+2023-05-14 20:13:28,873 - ipyrest - INFO - application/gpx\+xml.* application/json
+2023-05-14 20:13:28,873 - ipyrest - INFO - application/gpx\+xml.* application/json
+2023-05-14 20:13:28,873 - ipyrest - INFO - application/gpx\+xml.* application/json
+2023-05-14 20:13:28,873 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,873 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,873 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,873 - ipyrest - INFO - Scatter-3D
+2023-05-14 20:13:28,873 - ipyrest - INFO - Scatter-3D
+2023-05-14 20:13:28,873 - ipyrest - INFO - Scatter-3D
+2023-05-14 20:13:28,873 - ipyrest - INFO - application/vnd\.3d\+txt.* application/json
+2023-05-14 20:13:28,873 - ipyrest - INFO - application/vnd\.3d\+txt.* application/json
+2023-05-14 20:13:28,873 - ipyrest - INFO - application/vnd\.3d\+txt.* application/json
+2023-05-14 20:13:28,873 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,873 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,873 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,873 - ipyrest - INFO - Protobuf
+2023-05-14 20:13:28,873 - ipyrest - INFO - Protobuf
+2023-05-14 20:13:28,873 - ipyrest - INFO - Protobuf
+2023-05-14 20:13:28,873 - ipyrest - INFO - application/x\-protobuf.* application/json
+2023-05-14 20:13:28,873 - ipyrest - INFO - application/x\-protobuf.* application/json
+2023-05-14 20:13:28,873 - ipyrest - INFO - application/x\-protobuf.* application/json
+2023-05-14 20:13:28,873 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,873 - ipyrest - INFO - skipped
+2023-05-14 20:13:28,873 - ipyrest - INFO - skipped
+2023-05-25 17:04:40,698 - ipyrest - INFO - Completed configuring logger!
+2023-05-25 17:04:40,734 - ipyrest - INFO - clicked
+2023-05-25 17:04:40,734 - ipyrest - INFO - vcr request ['http://localhost:9200/', 'GET'] {'headers': {}, 'cassette_path': '', 'logger': <ipyrest.ipyrest.MyLogger object at 0x1058c9a90>}
+2023-05-25 17:04:40,734 - ipyrest - INFO - callign timeout_execute_request
+2023-05-25 17:04:40,734 - ipyrest - INFO - execute_request <vcr.config.VCR object at 0x1058c9d00> 
+2023-05-25 17:04:40,752 - ipyrest - INFO - result request <Response [200]>
+2023-05-25 17:04:40,752 - ipyrest - INFO - b'{\n  "name" : "a2632bf5d65a",\n  "cluster_name" : "docker-cluster",\n  "cluster_uuid" : "kBjAdbYkRPq0isv7JGNfcQ",\n  "version" : {\n    "number" : "8.7.1",\n    "build_flavor" : "default",\n    "build_type" : "docker",\n    "build_hash" : "f229ed3f893a515d590d0f39b05f68913e2d9b53",\n    "build_date" : "2023-04-27T04:33:42.127815583Z",\n    "build_snapshot" : false,\n    "lucene_version" : "9.5.0",\n    "minimum_wire_compatibility_version" : "7.17.0",\n    "minimum_index_compatibility_version" : "7.0.0"\n  },\n  "tagline" : "You Know, for Search"\n}\n'
+2023-05-25 17:04:40,753 - ipyrest - INFO - response {'X-elastic-product': 'Elasticsearch', 'content-type': 'application/json', 'content-encoding': 'gzip', 'content-length': '329'}
+2023-05-25 17:04:40,753 - ipyrest - INFO - 0
+2023-05-25 17:04:40,755 - ipyrest - INFO - 0
+2023-05-25 17:04:40,757 - ipyrest - INFO - maintype: application, subtype: json, params: None
+2023-05-25 17:04:40,757 - ipyrest - INFO - essence: application/json
+2023-05-25 17:04:40,762 - ipyrest - INFO - HTML
+2023-05-25 17:04:40,762 - ipyrest - INFO - text/html.* application/json
+2023-05-25 17:04:40,762 - ipyrest - INFO - skipped
+2023-05-25 17:04:40,762 - ipyrest - INFO - SVG
+2023-05-25 17:04:40,763 - ipyrest - INFO - image/svg\+xml.* application/json
+2023-05-25 17:04:40,763 - ipyrest - INFO - skipped
+2023-05-25 17:04:40,763 - ipyrest - INFO - Image
+2023-05-25 17:04:40,763 - ipyrest - INFO - image/.* application/json
+2023-05-25 17:04:40,763 - ipyrest - INFO - skipped
+2023-05-25 17:04:40,763 - ipyrest - INFO - JSON
+2023-05-25 17:04:40,763 - ipyrest - INFO - application/json.* application/json
+2023-05-25 17:04:40,763 - ipyrest - INFO - application/json
+2023-05-25 17:04:40,766 - ipyrest - INFO - data {'name': 'a2632bf5d65a', 'cluster_name': 'docker-cluster', 'cluster_uuid': 'kBjAdbYkRPq0isv7JGNfcQ', 'version': {'number': '8.7.1', 'build_flavor': 'default', 'build_type': 'docker', 'build_hash': 'f229ed3f893a515d590d0f39b05f68913e2d9b53', 'build_date': '2023-04-27T04:33:42.127815583Z', 'build_snapshot': False, 'lucene_version': '9.5.0', 'minimum_wire_compatibility_version': '7.17.0', 'minimum_index_compatibility_version': '7.0.0'}, 'tagline': 'You Know, for Search'}
+2023-05-25 17:04:40,766 - ipyrest - INFO - rendered
+2023-05-25 17:04:40,766 - ipyrest - INFO - application/vnd\..*\+json.* application/json
+2023-05-25 17:04:40,767 - ipyrest - INFO - skipped
+2023-05-25 17:04:40,767 - ipyrest - INFO - CSV
+2023-05-25 17:04:40,767 - ipyrest - INFO - text/csv.* application/json
+2023-05-25 17:04:40,767 - ipyrest - INFO - skipped
+2023-05-25 17:04:40,767 - ipyrest - INFO - GeoJSON
+2023-05-25 17:04:40,767 - ipyrest - INFO - application/vnd\.geo\+json.* application/json
+2023-05-25 17:04:40,767 - ipyrest - INFO - skipped
+2023-05-25 17:04:40,767 - ipyrest - INFO - GPX
+2023-05-25 17:04:40,767 - ipyrest - INFO - application/gpx\+xml.* application/json
+2023-05-25 17:04:40,767 - ipyrest - INFO - skipped
+2023-05-25 17:04:40,767 - ipyrest - INFO - Scatter-3D
+2023-05-25 17:04:40,767 - ipyrest - INFO - application/vnd\.3d\+txt.* application/json
+2023-05-25 17:04:40,767 - ipyrest - INFO - skipped
+2023-05-25 17:04:40,767 - ipyrest - INFO - Protobuf
+2023-05-25 17:04:40,767 - ipyrest - INFO - application/x\-protobuf.* application/json
+2023-05-25 17:04:40,767 - ipyrest - INFO - skipped
+2023-05-25 17:06:39,201 - ipyrest - INFO - Completed configuring logger!
+2023-05-25 17:06:39,201 - ipyrest - INFO - Completed configuring logger!
+2023-05-25 17:06:41,431 - ipyrest - INFO - clicked
+2023-05-25 17:06:41,431 - ipyrest - INFO - clicked
+2023-05-25 17:06:41,432 - ipyrest - INFO - vcr request ['http://localhost:9200/customers/_doc/1', 'PUT'] {'headers': {}, 'cassette_path': '', 'logger': <ipyrest.ipyrest.MyLogger object at 0x120686940>, 'json': {'name': 'Luciano Spalletti'}}
+2023-05-25 17:06:41,432 - ipyrest - INFO - vcr request ['http://localhost:9200/customers/_doc/1', 'PUT'] {'headers': {}, 'cassette_path': '', 'logger': <ipyrest.ipyrest.MyLogger object at 0x120686940>, 'json': {'name': 'Luciano Spalletti'}}
+2023-05-25 17:06:41,432 - ipyrest - INFO - callign timeout_execute_request
+2023-05-25 17:06:41,432 - ipyrest - INFO - callign timeout_execute_request
+2023-05-25 17:06:41,432 - ipyrest - INFO - execute_request <vcr.config.VCR object at 0x1058c9d00> 
+2023-05-25 17:06:41,432 - ipyrest - INFO - execute_request <vcr.config.VCR object at 0x1058c9d00> 
+2023-05-25 17:06:41,715 - ipyrest - INFO - result request <Response [201]>
+2023-05-25 17:06:41,715 - ipyrest - INFO - result request <Response [201]>
+2023-05-25 17:06:41,715 - ipyrest - INFO - b'{"_index":"customers","_id":"1","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":0,"_primary_term":1}'
+2023-05-25 17:06:41,715 - ipyrest - INFO - b'{"_index":"customers","_id":"1","_version":1,"result":"created","_shards":{"total":2,"successful":1,"failed":0},"_seq_no":0,"_primary_term":1}'
+2023-05-25 17:06:41,716 - ipyrest - INFO - response {'Location': '/customers/_doc/1', 'X-elastic-product': 'Elasticsearch', 'content-type': 'application/json', 'content-encoding': 'gzip', 'content-length': '133'}
+2023-05-25 17:06:41,716 - ipyrest - INFO - response {'Location': '/customers/_doc/1', 'X-elastic-product': 'Elasticsearch', 'content-type': 'application/json', 'content-encoding': 'gzip', 'content-length': '133'}
+2023-05-25 17:06:41,716 - ipyrest - INFO - 0
+2023-05-25 17:06:41,716 - ipyrest - INFO - 0
+2023-05-25 17:06:41,723 - ipyrest - INFO - 0
+2023-05-25 17:06:41,723 - ipyrest - INFO - 0
+2023-05-25 17:06:41,725 - ipyrest - INFO - maintype: application, subtype: json, params: None
+2023-05-25 17:06:41,725 - ipyrest - INFO - maintype: application, subtype: json, params: None
+2023-05-25 17:06:41,725 - ipyrest - INFO - essence: application/json
+2023-05-25 17:06:41,725 - ipyrest - INFO - essence: application/json
+2023-05-25 17:06:41,742 - ipyrest - INFO - HTML
+2023-05-25 17:06:41,742 - ipyrest - INFO - HTML
+2023-05-25 17:06:41,743 - ipyrest - INFO - text/html.* application/json
+2023-05-25 17:06:41,743 - ipyrest - INFO - text/html.* application/json
+2023-05-25 17:06:41,743 - ipyrest - INFO - skipped
+2023-05-25 17:06:41,743 - ipyrest - INFO - skipped
+2023-05-25 17:06:41,743 - ipyrest - INFO - SVG
+2023-05-25 17:06:41,743 - ipyrest - INFO - SVG
+2023-05-25 17:06:41,743 - ipyrest - INFO - image/svg\+xml.* application/json
+2023-05-25 17:06:41,743 - ipyrest - INFO - image/svg\+xml.* application/json
+2023-05-25 17:06:41,743 - ipyrest - INFO - skipped
+2023-05-25 17:06:41,743 - ipyrest - INFO - skipped
+2023-05-25 17:06:41,744 - ipyrest - INFO - Image
+2023-05-25 17:06:41,744 - ipyrest - INFO - Image
+2023-05-25 17:06:41,744 - ipyrest - INFO - image/.* application/json
+2023-05-25 17:06:41,744 - ipyrest - INFO - image/.* application/json
+2023-05-25 17:06:41,744 - ipyrest - INFO - skipped
+2023-05-25 17:06:41,744 - ipyrest - INFO - skipped
+2023-05-25 17:06:41,744 - ipyrest - INFO - JSON
+2023-05-25 17:06:41,744 - ipyrest - INFO - JSON
+2023-05-25 17:06:41,744 - ipyrest - INFO - application/json.* application/json
+2023-05-25 17:06:41,744 - ipyrest - INFO - application/json.* application/json
+2023-05-25 17:06:41,744 - ipyrest - INFO - application/json
+2023-05-25 17:06:41,744 - ipyrest - INFO - application/json
+2023-05-25 17:06:41,747 - ipyrest - INFO - data {'_index': 'customers', '_id': '1', '_version': 1, 'result': 'created', '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 0, '_primary_term': 1}
+2023-05-25 17:06:41,747 - ipyrest - INFO - data {'_index': 'customers', '_id': '1', '_version': 1, 'result': 'created', '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 0, '_primary_term': 1}
+2023-05-25 17:06:41,748 - ipyrest - INFO - rendered
+2023-05-25 17:06:41,748 - ipyrest - INFO - rendered
+2023-05-25 17:06:41,748 - ipyrest - INFO - application/vnd\..*\+json.* application/json
+2023-05-25 17:06:41,748 - ipyrest - INFO - application/vnd\..*\+json.* application/json
+2023-05-25 17:06:41,748 - ipyrest - INFO - skipped
+2023-05-25 17:06:41,748 - ipyrest - INFO - skipped
+2023-05-25 17:06:41,749 - ipyrest - INFO - CSV
+2023-05-25 17:06:41,749 - ipyrest - INFO - CSV
+2023-05-25 17:06:41,749 - ipyrest - INFO - text/csv.* application/json
+2023-05-25 17:06:41,749 - ipyrest - INFO - text/csv.* application/json
+2023-05-25 17:06:41,749 - ipyrest - INFO - skipped
+2023-05-25 17:06:41,749 - ipyrest - INFO - skipped
+2023-05-25 17:06:41,749 - ipyrest - INFO - GeoJSON
+2023-05-25 17:06:41,749 - ipyrest - INFO - GeoJSON
+2023-05-25 17:06:41,749 - ipyrest - INFO - application/vnd\.geo\+json.* application/json
+2023-05-25 17:06:41,749 - ipyrest - INFO - application/vnd\.geo\+json.* application/json
+2023-05-25 17:06:41,749 - ipyrest - INFO - skipped
+2023-05-25 17:06:41,749 - ipyrest - INFO - skipped
+2023-05-25 17:06:41,749 - ipyrest - INFO - GPX
+2023-05-25 17:06:41,749 - ipyrest - INFO - GPX
+2023-05-25 17:06:41,750 - ipyrest - INFO - application/gpx\+xml.* application/json
+2023-05-25 17:06:41,750 - ipyrest - INFO - application/gpx\+xml.* application/json
+2023-05-25 17:06:41,750 - ipyrest - INFO - skipped
+2023-05-25 17:06:41,750 - ipyrest - INFO - skipped
+2023-05-25 17:06:41,750 - ipyrest - INFO - Scatter-3D
+2023-05-25 17:06:41,750 - ipyrest - INFO - Scatter-3D
+2023-05-25 17:06:41,750 - ipyrest - INFO - application/vnd\.3d\+txt.* application/json
+2023-05-25 17:06:41,750 - ipyrest - INFO - application/vnd\.3d\+txt.* application/json
+2023-05-25 17:06:41,750 - ipyrest - INFO - skipped
+2023-05-25 17:06:41,750 - ipyrest - INFO - skipped
+2023-05-25 17:06:41,750 - ipyrest - INFO - Protobuf
+2023-05-25 17:06:41,750 - ipyrest - INFO - Protobuf
+2023-05-25 17:06:41,751 - ipyrest - INFO - application/x\-protobuf.* application/json
+2023-05-25 17:06:41,751 - ipyrest - INFO - application/x\-protobuf.* application/json
+2023-05-25 17:06:41,751 - ipyrest - INFO - skipped
+2023-05-25 17:06:41,751 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,673 - ipyrest - INFO - Completed configuring logger!
+2023-05-25 17:07:14,673 - ipyrest - INFO - Completed configuring logger!
+2023-05-25 17:07:14,673 - ipyrest - INFO - Completed configuring logger!
+2023-05-25 17:07:14,714 - ipyrest - INFO - clicked
+2023-05-25 17:07:14,714 - ipyrest - INFO - clicked
+2023-05-25 17:07:14,714 - ipyrest - INFO - clicked
+2023-05-25 17:07:14,715 - ipyrest - INFO - vcr request ['http://localhost:9200/customers/_doc/1', 'GET'] {'headers': {}, 'cassette_path': '', 'logger': <ipyrest.ipyrest.MyLogger object at 0x155367580>}
+2023-05-25 17:07:14,715 - ipyrest - INFO - vcr request ['http://localhost:9200/customers/_doc/1', 'GET'] {'headers': {}, 'cassette_path': '', 'logger': <ipyrest.ipyrest.MyLogger object at 0x155367580>}
+2023-05-25 17:07:14,715 - ipyrest - INFO - vcr request ['http://localhost:9200/customers/_doc/1', 'GET'] {'headers': {}, 'cassette_path': '', 'logger': <ipyrest.ipyrest.MyLogger object at 0x155367580>}
+2023-05-25 17:07:14,715 - ipyrest - INFO - callign timeout_execute_request
+2023-05-25 17:07:14,715 - ipyrest - INFO - callign timeout_execute_request
+2023-05-25 17:07:14,715 - ipyrest - INFO - callign timeout_execute_request
+2023-05-25 17:07:14,715 - ipyrest - INFO - execute_request <vcr.config.VCR object at 0x1058c9d00> 
+2023-05-25 17:07:14,715 - ipyrest - INFO - execute_request <vcr.config.VCR object at 0x1058c9d00> 
+2023-05-25 17:07:14,715 - ipyrest - INFO - execute_request <vcr.config.VCR object at 0x1058c9d00> 
+2023-05-25 17:07:14,750 - ipyrest - INFO - result request <Response [200]>
+2023-05-25 17:07:14,750 - ipyrest - INFO - result request <Response [200]>
+2023-05-25 17:07:14,750 - ipyrest - INFO - result request <Response [200]>
+2023-05-25 17:07:14,750 - ipyrest - INFO - b'{"_index":"customers","_id":"1","_version":1,"_seq_no":0,"_primary_term":1,"found":true,"_source":{"name": "Luciano Spalletti"}}'
+2023-05-25 17:07:14,750 - ipyrest - INFO - b'{"_index":"customers","_id":"1","_version":1,"_seq_no":0,"_primary_term":1,"found":true,"_source":{"name": "Luciano Spalletti"}}'
+2023-05-25 17:07:14,750 - ipyrest - INFO - b'{"_index":"customers","_id":"1","_version":1,"_seq_no":0,"_primary_term":1,"found":true,"_source":{"name": "Luciano Spalletti"}}'
+2023-05-25 17:07:14,750 - ipyrest - INFO - response {'X-elastic-product': 'Elasticsearch', 'content-type': 'application/json', 'content-encoding': 'gzip', 'content-length': '131'}
+2023-05-25 17:07:14,750 - ipyrest - INFO - response {'X-elastic-product': 'Elasticsearch', 'content-type': 'application/json', 'content-encoding': 'gzip', 'content-length': '131'}
+2023-05-25 17:07:14,750 - ipyrest - INFO - response {'X-elastic-product': 'Elasticsearch', 'content-type': 'application/json', 'content-encoding': 'gzip', 'content-length': '131'}
+2023-05-25 17:07:14,750 - ipyrest - INFO - 0
+2023-05-25 17:07:14,750 - ipyrest - INFO - 0
+2023-05-25 17:07:14,750 - ipyrest - INFO - 0
+2023-05-25 17:07:14,753 - ipyrest - INFO - 0
+2023-05-25 17:07:14,753 - ipyrest - INFO - 0
+2023-05-25 17:07:14,753 - ipyrest - INFO - 0
+2023-05-25 17:07:14,754 - ipyrest - INFO - maintype: application, subtype: json, params: None
+2023-05-25 17:07:14,754 - ipyrest - INFO - maintype: application, subtype: json, params: None
+2023-05-25 17:07:14,754 - ipyrest - INFO - maintype: application, subtype: json, params: None
+2023-05-25 17:07:14,754 - ipyrest - INFO - essence: application/json
+2023-05-25 17:07:14,754 - ipyrest - INFO - essence: application/json
+2023-05-25 17:07:14,754 - ipyrest - INFO - essence: application/json
+2023-05-25 17:07:14,759 - ipyrest - INFO - HTML
+2023-05-25 17:07:14,759 - ipyrest - INFO - HTML
+2023-05-25 17:07:14,759 - ipyrest - INFO - HTML
+2023-05-25 17:07:14,759 - ipyrest - INFO - text/html.* application/json
+2023-05-25 17:07:14,759 - ipyrest - INFO - text/html.* application/json
+2023-05-25 17:07:14,759 - ipyrest - INFO - text/html.* application/json
+2023-05-25 17:07:14,760 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,760 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,760 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,760 - ipyrest - INFO - SVG
+2023-05-25 17:07:14,760 - ipyrest - INFO - SVG
+2023-05-25 17:07:14,760 - ipyrest - INFO - SVG
+2023-05-25 17:07:14,760 - ipyrest - INFO - image/svg\+xml.* application/json
+2023-05-25 17:07:14,760 - ipyrest - INFO - image/svg\+xml.* application/json
+2023-05-25 17:07:14,760 - ipyrest - INFO - image/svg\+xml.* application/json
+2023-05-25 17:07:14,760 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,760 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,760 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,760 - ipyrest - INFO - Image
+2023-05-25 17:07:14,760 - ipyrest - INFO - Image
+2023-05-25 17:07:14,760 - ipyrest - INFO - Image
+2023-05-25 17:07:14,760 - ipyrest - INFO - image/.* application/json
+2023-05-25 17:07:14,760 - ipyrest - INFO - image/.* application/json
+2023-05-25 17:07:14,760 - ipyrest - INFO - image/.* application/json
+2023-05-25 17:07:14,760 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,760 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,760 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,760 - ipyrest - INFO - JSON
+2023-05-25 17:07:14,760 - ipyrest - INFO - JSON
+2023-05-25 17:07:14,760 - ipyrest - INFO - JSON
+2023-05-25 17:07:14,761 - ipyrest - INFO - application/json.* application/json
+2023-05-25 17:07:14,761 - ipyrest - INFO - application/json.* application/json
+2023-05-25 17:07:14,761 - ipyrest - INFO - application/json.* application/json
+2023-05-25 17:07:14,761 - ipyrest - INFO - application/json
+2023-05-25 17:07:14,761 - ipyrest - INFO - application/json
+2023-05-25 17:07:14,761 - ipyrest - INFO - application/json
+2023-05-25 17:07:14,763 - ipyrest - INFO - data {'_index': 'customers', '_id': '1', '_version': 1, '_seq_no': 0, '_primary_term': 1, 'found': True, '_source': {'name': 'Luciano Spalletti'}}
+2023-05-25 17:07:14,763 - ipyrest - INFO - data {'_index': 'customers', '_id': '1', '_version': 1, '_seq_no': 0, '_primary_term': 1, 'found': True, '_source': {'name': 'Luciano Spalletti'}}
+2023-05-25 17:07:14,763 - ipyrest - INFO - data {'_index': 'customers', '_id': '1', '_version': 1, '_seq_no': 0, '_primary_term': 1, 'found': True, '_source': {'name': 'Luciano Spalletti'}}
+2023-05-25 17:07:14,763 - ipyrest - INFO - rendered
+2023-05-25 17:07:14,763 - ipyrest - INFO - rendered
+2023-05-25 17:07:14,763 - ipyrest - INFO - rendered
+2023-05-25 17:07:14,764 - ipyrest - INFO - application/vnd\..*\+json.* application/json
+2023-05-25 17:07:14,764 - ipyrest - INFO - application/vnd\..*\+json.* application/json
+2023-05-25 17:07:14,764 - ipyrest - INFO - application/vnd\..*\+json.* application/json
+2023-05-25 17:07:14,764 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,764 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,764 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,764 - ipyrest - INFO - CSV
+2023-05-25 17:07:14,764 - ipyrest - INFO - CSV
+2023-05-25 17:07:14,764 - ipyrest - INFO - CSV
+2023-05-25 17:07:14,764 - ipyrest - INFO - text/csv.* application/json
+2023-05-25 17:07:14,764 - ipyrest - INFO - text/csv.* application/json
+2023-05-25 17:07:14,764 - ipyrest - INFO - text/csv.* application/json
+2023-05-25 17:07:14,764 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,764 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,764 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,764 - ipyrest - INFO - GeoJSON
+2023-05-25 17:07:14,764 - ipyrest - INFO - GeoJSON
+2023-05-25 17:07:14,764 - ipyrest - INFO - GeoJSON
+2023-05-25 17:07:14,764 - ipyrest - INFO - application/vnd\.geo\+json.* application/json
+2023-05-25 17:07:14,764 - ipyrest - INFO - application/vnd\.geo\+json.* application/json
+2023-05-25 17:07:14,764 - ipyrest - INFO - application/vnd\.geo\+json.* application/json
+2023-05-25 17:07:14,764 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,764 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,764 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,764 - ipyrest - INFO - GPX
+2023-05-25 17:07:14,764 - ipyrest - INFO - GPX
+2023-05-25 17:07:14,764 - ipyrest - INFO - GPX
+2023-05-25 17:07:14,764 - ipyrest - INFO - application/gpx\+xml.* application/json
+2023-05-25 17:07:14,764 - ipyrest - INFO - application/gpx\+xml.* application/json
+2023-05-25 17:07:14,764 - ipyrest - INFO - application/gpx\+xml.* application/json
+2023-05-25 17:07:14,765 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,765 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,765 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,765 - ipyrest - INFO - Scatter-3D
+2023-05-25 17:07:14,765 - ipyrest - INFO - Scatter-3D
+2023-05-25 17:07:14,765 - ipyrest - INFO - Scatter-3D
+2023-05-25 17:07:14,765 - ipyrest - INFO - application/vnd\.3d\+txt.* application/json
+2023-05-25 17:07:14,765 - ipyrest - INFO - application/vnd\.3d\+txt.* application/json
+2023-05-25 17:07:14,765 - ipyrest - INFO - application/vnd\.3d\+txt.* application/json
+2023-05-25 17:07:14,765 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,765 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,765 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,765 - ipyrest - INFO - Protobuf
+2023-05-25 17:07:14,765 - ipyrest - INFO - Protobuf
+2023-05-25 17:07:14,765 - ipyrest - INFO - Protobuf
+2023-05-25 17:07:14,765 - ipyrest - INFO - application/x\-protobuf.* application/json
+2023-05-25 17:07:14,765 - ipyrest - INFO - application/x\-protobuf.* application/json
+2023-05-25 17:07:14,765 - ipyrest - INFO - application/x\-protobuf.* application/json
+2023-05-25 17:07:14,765 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,765 - ipyrest - INFO - skipped
+2023-05-25 17:07:14,765 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,483 - ipyrest - INFO - clicked
+2023-05-25 17:07:19,483 - ipyrest - INFO - clicked
+2023-05-25 17:07:19,483 - ipyrest - INFO - clicked
+2023-05-25 17:07:19,483 - ipyrest - INFO - vcr request ['http://localhost:9200/customers/_doc/1', 'GET'] {'headers': {}, 'cassette_path': '', 'logger': <ipyrest.ipyrest.MyLogger object at 0x155367580>}
+2023-05-25 17:07:19,483 - ipyrest - INFO - vcr request ['http://localhost:9200/customers/_doc/1', 'GET'] {'headers': {}, 'cassette_path': '', 'logger': <ipyrest.ipyrest.MyLogger object at 0x155367580>}
+2023-05-25 17:07:19,483 - ipyrest - INFO - vcr request ['http://localhost:9200/customers/_doc/1', 'GET'] {'headers': {}, 'cassette_path': '', 'logger': <ipyrest.ipyrest.MyLogger object at 0x155367580>}
+2023-05-25 17:07:19,484 - ipyrest - INFO - callign timeout_execute_request
+2023-05-25 17:07:19,484 - ipyrest - INFO - callign timeout_execute_request
+2023-05-25 17:07:19,484 - ipyrest - INFO - callign timeout_execute_request
+2023-05-25 17:07:19,484 - ipyrest - INFO - execute_request <vcr.config.VCR object at 0x1058c9d00> 
+2023-05-25 17:07:19,484 - ipyrest - INFO - execute_request <vcr.config.VCR object at 0x1058c9d00> 
+2023-05-25 17:07:19,484 - ipyrest - INFO - execute_request <vcr.config.VCR object at 0x1058c9d00> 
+2023-05-25 17:07:19,500 - ipyrest - INFO - result request <Response [200]>
+2023-05-25 17:07:19,500 - ipyrest - INFO - result request <Response [200]>
+2023-05-25 17:07:19,500 - ipyrest - INFO - result request <Response [200]>
+2023-05-25 17:07:19,500 - ipyrest - INFO - b'{"_index":"customers","_id":"1","_version":1,"_seq_no":0,"_primary_term":1,"found":true,"_source":{"name": "Luciano Spalletti"}}'
+2023-05-25 17:07:19,500 - ipyrest - INFO - b'{"_index":"customers","_id":"1","_version":1,"_seq_no":0,"_primary_term":1,"found":true,"_source":{"name": "Luciano Spalletti"}}'
+2023-05-25 17:07:19,500 - ipyrest - INFO - b'{"_index":"customers","_id":"1","_version":1,"_seq_no":0,"_primary_term":1,"found":true,"_source":{"name": "Luciano Spalletti"}}'
+2023-05-25 17:07:19,501 - ipyrest - INFO - response {'X-elastic-product': 'Elasticsearch', 'content-type': 'application/json', 'content-encoding': 'gzip', 'content-length': '131'}
+2023-05-25 17:07:19,501 - ipyrest - INFO - response {'X-elastic-product': 'Elasticsearch', 'content-type': 'application/json', 'content-encoding': 'gzip', 'content-length': '131'}
+2023-05-25 17:07:19,501 - ipyrest - INFO - response {'X-elastic-product': 'Elasticsearch', 'content-type': 'application/json', 'content-encoding': 'gzip', 'content-length': '131'}
+2023-05-25 17:07:19,501 - ipyrest - INFO - 0
+2023-05-25 17:07:19,501 - ipyrest - INFO - 0
+2023-05-25 17:07:19,501 - ipyrest - INFO - 0
+2023-05-25 17:07:19,508 - ipyrest - INFO - 0
+2023-05-25 17:07:19,508 - ipyrest - INFO - 0
+2023-05-25 17:07:19,508 - ipyrest - INFO - 0
+2023-05-25 17:07:19,509 - ipyrest - INFO - maintype: application, subtype: json, params: None
+2023-05-25 17:07:19,509 - ipyrest - INFO - maintype: application, subtype: json, params: None
+2023-05-25 17:07:19,509 - ipyrest - INFO - maintype: application, subtype: json, params: None
+2023-05-25 17:07:19,509 - ipyrest - INFO - essence: application/json
+2023-05-25 17:07:19,509 - ipyrest - INFO - essence: application/json
+2023-05-25 17:07:19,509 - ipyrest - INFO - essence: application/json
+2023-05-25 17:07:19,516 - ipyrest - INFO - HTML
+2023-05-25 17:07:19,516 - ipyrest - INFO - HTML
+2023-05-25 17:07:19,516 - ipyrest - INFO - HTML
+2023-05-25 17:07:19,517 - ipyrest - INFO - text/html.* application/json
+2023-05-25 17:07:19,517 - ipyrest - INFO - text/html.* application/json
+2023-05-25 17:07:19,517 - ipyrest - INFO - text/html.* application/json
+2023-05-25 17:07:19,517 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,517 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,517 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,517 - ipyrest - INFO - SVG
+2023-05-25 17:07:19,517 - ipyrest - INFO - SVG
+2023-05-25 17:07:19,517 - ipyrest - INFO - SVG
+2023-05-25 17:07:19,518 - ipyrest - INFO - image/svg\+xml.* application/json
+2023-05-25 17:07:19,518 - ipyrest - INFO - image/svg\+xml.* application/json
+2023-05-25 17:07:19,518 - ipyrest - INFO - image/svg\+xml.* application/json
+2023-05-25 17:07:19,518 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,518 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,518 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,518 - ipyrest - INFO - Image
+2023-05-25 17:07:19,518 - ipyrest - INFO - Image
+2023-05-25 17:07:19,518 - ipyrest - INFO - Image
+2023-05-25 17:07:19,519 - ipyrest - INFO - image/.* application/json
+2023-05-25 17:07:19,519 - ipyrest - INFO - image/.* application/json
+2023-05-25 17:07:19,519 - ipyrest - INFO - image/.* application/json
+2023-05-25 17:07:19,519 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,519 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,519 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,519 - ipyrest - INFO - JSON
+2023-05-25 17:07:19,519 - ipyrest - INFO - JSON
+2023-05-25 17:07:19,519 - ipyrest - INFO - JSON
+2023-05-25 17:07:19,519 - ipyrest - INFO - application/json.* application/json
+2023-05-25 17:07:19,519 - ipyrest - INFO - application/json.* application/json
+2023-05-25 17:07:19,519 - ipyrest - INFO - application/json.* application/json
+2023-05-25 17:07:19,519 - ipyrest - INFO - application/json
+2023-05-25 17:07:19,519 - ipyrest - INFO - application/json
+2023-05-25 17:07:19,519 - ipyrest - INFO - application/json
+2023-05-25 17:07:19,522 - ipyrest - INFO - data {'_index': 'customers', '_id': '1', '_version': 1, '_seq_no': 0, '_primary_term': 1, 'found': True, '_source': {'name': 'Luciano Spalletti'}}
+2023-05-25 17:07:19,522 - ipyrest - INFO - data {'_index': 'customers', '_id': '1', '_version': 1, '_seq_no': 0, '_primary_term': 1, 'found': True, '_source': {'name': 'Luciano Spalletti'}}
+2023-05-25 17:07:19,522 - ipyrest - INFO - data {'_index': 'customers', '_id': '1', '_version': 1, '_seq_no': 0, '_primary_term': 1, 'found': True, '_source': {'name': 'Luciano Spalletti'}}
+2023-05-25 17:07:19,522 - ipyrest - INFO - rendered
+2023-05-25 17:07:19,522 - ipyrest - INFO - rendered
+2023-05-25 17:07:19,522 - ipyrest - INFO - rendered
+2023-05-25 17:07:19,523 - ipyrest - INFO - application/vnd\..*\+json.* application/json
+2023-05-25 17:07:19,523 - ipyrest - INFO - application/vnd\..*\+json.* application/json
+2023-05-25 17:07:19,523 - ipyrest - INFO - application/vnd\..*\+json.* application/json
+2023-05-25 17:07:19,523 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,523 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,523 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,523 - ipyrest - INFO - CSV
+2023-05-25 17:07:19,523 - ipyrest - INFO - CSV
+2023-05-25 17:07:19,523 - ipyrest - INFO - CSV
+2023-05-25 17:07:19,523 - ipyrest - INFO - text/csv.* application/json
+2023-05-25 17:07:19,523 - ipyrest - INFO - text/csv.* application/json
+2023-05-25 17:07:19,523 - ipyrest - INFO - text/csv.* application/json
+2023-05-25 17:07:19,524 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,524 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,524 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,524 - ipyrest - INFO - GeoJSON
+2023-05-25 17:07:19,524 - ipyrest - INFO - GeoJSON
+2023-05-25 17:07:19,524 - ipyrest - INFO - GeoJSON
+2023-05-25 17:07:19,524 - ipyrest - INFO - application/vnd\.geo\+json.* application/json
+2023-05-25 17:07:19,524 - ipyrest - INFO - application/vnd\.geo\+json.* application/json
+2023-05-25 17:07:19,524 - ipyrest - INFO - application/vnd\.geo\+json.* application/json
+2023-05-25 17:07:19,524 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,524 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,524 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,524 - ipyrest - INFO - GPX
+2023-05-25 17:07:19,524 - ipyrest - INFO - GPX
+2023-05-25 17:07:19,524 - ipyrest - INFO - GPX
+2023-05-25 17:07:19,524 - ipyrest - INFO - application/gpx\+xml.* application/json
+2023-05-25 17:07:19,524 - ipyrest - INFO - application/gpx\+xml.* application/json
+2023-05-25 17:07:19,524 - ipyrest - INFO - application/gpx\+xml.* application/json
+2023-05-25 17:07:19,524 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,524 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,524 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,524 - ipyrest - INFO - Scatter-3D
+2023-05-25 17:07:19,524 - ipyrest - INFO - Scatter-3D
+2023-05-25 17:07:19,524 - ipyrest - INFO - Scatter-3D
+2023-05-25 17:07:19,524 - ipyrest - INFO - application/vnd\.3d\+txt.* application/json
+2023-05-25 17:07:19,524 - ipyrest - INFO - application/vnd\.3d\+txt.* application/json
+2023-05-25 17:07:19,524 - ipyrest - INFO - application/vnd\.3d\+txt.* application/json
+2023-05-25 17:07:19,524 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,524 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,524 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,524 - ipyrest - INFO - Protobuf
+2023-05-25 17:07:19,524 - ipyrest - INFO - Protobuf
+2023-05-25 17:07:19,524 - ipyrest - INFO - Protobuf
+2023-05-25 17:07:19,525 - ipyrest - INFO - application/x\-protobuf.* application/json
+2023-05-25 17:07:19,525 - ipyrest - INFO - application/x\-protobuf.* application/json
+2023-05-25 17:07:19,525 - ipyrest - INFO - application/x\-protobuf.* application/json
+2023-05-25 17:07:19,525 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,525 - ipyrest - INFO - skipped
+2023-05-25 17:07:19,525 - ipyrest - INFO - skipped
